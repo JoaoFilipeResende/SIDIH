@@ -1,0 +1,16 @@
+STATES
+d
+e
+EVENTS
+a
+b
+TRANSITIONS
+d a e
+d b d
+e a e
+e b d
+INITIAL
+d
+FINAL
+e
+END

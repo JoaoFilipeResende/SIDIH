@@ -1,0 +1,22 @@
+STATES
+x
+y
+z
+EVENTS
+a
+b
+g
+TRANSITIONS
+x a x
+x g z
+y a x
+y b y
+z a y
+z g y
+z b z
+INITIAL
+x
+FINAL
+x
+z
+END

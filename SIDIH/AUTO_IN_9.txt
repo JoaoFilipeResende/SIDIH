@@ -1,0 +1,24 @@
+STATES
+a
+b
+c
+d
+e
+EVENTS
+0
+1
+TRANSITIONS
+a 0 b
+a 1 c
+b 0 a
+b 1 d
+c 0 e
+d 0 e
+e 0 e
+INITIAL
+a
+FINAL
+c
+d
+e
+END
